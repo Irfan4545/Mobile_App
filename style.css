@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.my-menu{
+    box-shadow: 0 8px 8px 0 #ccc;
+}
+a.nav-link.active{
+    background-color: black;
+    color: white !important;
+}
+.dropdown-menu{
+    padding: 0;
+}
+#home h1{
+    font-family:'Montserrat';
+
+}
+#home p{
+    font-family: 'Montserrat';
+    
+}
+#home{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+#service{
+    margin-bottom: 0;
+   
+}
+#service h1{
+    font-family: 'Montserrat';
+}
+.code-icon{
+    font-size: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #323232;
+    background-color: white !important;
+   
+}
+#text h2{
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+#text p{
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+.pd{
+    padding: 20px;
+}
+#client{
+    margin-bottom: 0;
+}
+#client h1{
+    font-family: 'Montserrat';
+
+}
+#image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 15px;
+}
+#john h2{
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+#john p{
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+#social-icon{
+    border: 1px solid black;
+}
+#social-icon:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.heading-font{
+    font-family: 'Montserrat';
+}
